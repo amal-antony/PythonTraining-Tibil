@@ -4,6 +4,7 @@ def reverseNum(num1):
     rev_num=""
     for i in range(no_of_digits-1,-1,-1):
        rev_num+=org_no[i]
+    print("The number when reversed becomes")
     print(int(rev_num))
 
 
