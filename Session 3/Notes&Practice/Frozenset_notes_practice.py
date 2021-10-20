@@ -14,9 +14,10 @@ vowels = ('a', 'e', 'i', 'o', 'u')
 fSet = frozenset(vowels)
 print('The frozen set is:', fSet)
 print('The empty frozen set is:', frozenset())
+fSet.
 
 # frozensets are immutable
-fSet.add('v')
+#fSet.add('v')-no such method exists
 
 # random dictionary
 person = {"name": "John", "age": 23, "sex": "male"}
