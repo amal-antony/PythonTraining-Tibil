@@ -1,4 +1,37 @@
 
+def my_function():
+  print("Hello from a function")
+
+my_function()
+
+
+def Adding():
+  a = 20
+  b = 30
+  Sum = a + b
+  print("After Calling the Function:", Sum)
+
+
+Adding()
+
+
+def Multiplication():
+  a = 10
+  b = 25
+  Multi = a * b
+  return Multi
+
+result=Multiplication()
+print(result)
+
+
+def my_function(country = "Norway"):
+  print("I am from " + country)
+
+my_function("Sweden")
+my_function("India")
+my_function()
+my_function("Brazil")
 
 
 

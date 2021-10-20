@@ -33,7 +33,7 @@ def Multiplications(a, b):
 
 Multiplications(10, 20)
 
-# Python Function with Arguments, and NO Return Value
+# Python Function with Arguments, and  Return Value
 def Addition(a, b):
     Sum = a + b
     return Sum

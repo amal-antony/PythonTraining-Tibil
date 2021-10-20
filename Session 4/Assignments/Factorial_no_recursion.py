@@ -6,5 +6,7 @@ def recusrs(n):
     print("Factorial of the number is: ")
     print(fact)
 
+
 n=int(input("Enter number:"))
 recusrs(n)
+
