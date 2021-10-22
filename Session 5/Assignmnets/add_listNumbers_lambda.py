@@ -7,7 +7,6 @@ for i in range(limit):
     num_array.append(number)
 print(num_array)
 print(f"\nYour entire list is \n{num_array}\n")
-total=0
 print("The sum of your list elements are")
 result=sume(num_array)
 print(result)

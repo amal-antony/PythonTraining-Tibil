@@ -91,3 +91,23 @@ print(functools.reduce(lambda a, b: a + b, lis))
 # using reduce to compute maximum element from list
 print("The maximum element of the list is : ", end="")
 print(functools.reduce(lambda a, b: a if a > b else b, lis))
+
+
+'''Third Argument: Initializer
+
+We said that reduce can take in an optional third argument, the initializerThe default value for it is None. 
+If we pass in an initializer, it will be used as the first x value by reduce 
+(instead of x being the first element of the iterable). 
+So if we passed in the number 2 in the above example as the initializer:'''
+
+def prod(x,y):
+   return x*y
+num_list = [1,2,3,4,5]
+
+product = functools.reduce(prod, num_list)
+print(f"no initializer output in \n {product}")
+product = functools.reduce(prod, num_list, 2)
+print(f"with initializer 2 output in \n {product}")
+
+
+
