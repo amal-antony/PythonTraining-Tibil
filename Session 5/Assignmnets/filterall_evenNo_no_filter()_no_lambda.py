@@ -1,13 +1,10 @@
 
-def filtereven(l):
-    list_of_num=list(range(1,l+1))
+def filtereven(list_of_num):
     print(f"\nYour entire list is \n{list_of_num}")
     even_no_list=[]
     for i in list_of_num:
         if(i%2==0):
             even_no_list.append(i)
-        else:
-            continue
     return even_no_list
 
 # Manually enter input user
@@ -19,7 +16,7 @@ for i in range(limit):
     num_array.append(number)
 print(num_array)
 print(f"\nYour entire list is \n{num_array}\n")
-result=filtereven(limit)
+result=filtereven(num_array)
 print(f"\nThe list of even numbers in your list are\n{result}")
 
 '''

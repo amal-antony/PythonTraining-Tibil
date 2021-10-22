@@ -1,4 +1,5 @@
 import functools
+#from functools import reduce
 
 def sum(x,y):
     sum=x+y
